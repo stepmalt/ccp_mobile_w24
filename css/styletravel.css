@@ -226,3 +226,20 @@ body {
         padding: 20px 0;
         font-size: 16px;
     }
+
+@media only screen and (max-width: 600px) {
+    .zermatt-grid, .italy_grid, .acadia_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .zermatt-grid img, .italy_grid img, .acadia_grid img, #zermatt_center, #italy_center, #acadia_main {
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+
+    #zermatt_para1, #zermatt_para2, #italy_para1, #italy_para2, #acadia_para1, #acadia_para2, h1, h2, h3 {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
