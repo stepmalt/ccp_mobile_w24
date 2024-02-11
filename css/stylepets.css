@@ -123,6 +123,11 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+    #mainlou, #maindory, #mainsophie, #mainmaya, #mainbertie {
+        max-width: 100%;
+        height: auto;
+    }
+    
     .gallery {
         grid-template-columns: 1fr;
         gap: 20px;
