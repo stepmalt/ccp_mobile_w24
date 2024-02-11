@@ -12,6 +12,8 @@
     width: 100%;
     height: 258px;
     object-fit: cover;
+    border: 7px solid #f2edfc;
+    border-radius: 8px;
 }
 
 #zermatt_para1, #zermatt_para2 {
@@ -48,6 +50,8 @@ h3 {
   height: 500px;
   max-width: 1200px;
   margin: 0 auto;
+  border: 7px solid #8e0000;
+  border-style: ridge;
 }
 
 #zermatt_list {
@@ -107,6 +111,8 @@ body {
     height: 500px;
     margin: 0 auto;
     max-width: 1200px;
+    border: 7px solid #c100a7;
+    border-style: ridge;
   }
 
 
@@ -125,6 +131,8 @@ body {
     width: 100%;
     height: 258px;
     object-fit: cover;
+    border: 7px solid #f2edfc;
+    border-radius: 8px;
 }
 
 
@@ -173,6 +181,8 @@ body {
     height: 500px;
     margin: 0 auto;
     width: 1200px;
+    border: 7px solid #014605;
+    border-style: ridge;
   }
 
     .acadia_grid {

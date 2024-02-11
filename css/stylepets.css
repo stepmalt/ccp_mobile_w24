@@ -11,14 +11,49 @@
         width: 100%;
         height: 500px;
         object-fit: cover;
+        border: 7px solid #f5f5dc;
+        border-radius: 8px;
     }
 
-  .mainpic {
+  #mainlou {
     display: block;
     margin: 0 auto;
     max-width: 700px;
+    border: 10px rgb(255, 127, 219);
+    border-style: ridge;
 }
 
+#maindory {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 10px rgb(101, 32, 0);
+    border-style: ridge;
+}
+
+#mainsophie {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 10px rgb(255, 69, 69);
+    border-style: ridge;
+}
+
+#mainmaya {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 10px rgb(255, 114, 58);
+    border-style: ridge;
+}
+
+#mainbertie {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 10px rgb(6, 45, 6);
+    border-style: ridge;
+}
 
 
 
@@ -26,7 +61,8 @@
         max-width: 700px;
         margin: 80px auto 20px;
         padding: 0 10px;
-        font-size: 24px;
+        font-size: 40px;
+        font-family: "Lucinda Handwriting", cursive;
      }
 
 p { margin-top: 20px;
@@ -42,16 +78,23 @@ p { margin-top: 20px;
     margin: 0 auto;
     width: fit-content;
     text-align: left;
+    border: 2px solid rgb(255, 169, 169);
+    background-color: rgb(254, 248, 248);
+    padding: 10px 10px 10px 40px;
 }
 
 .dog-list li {
     margin-bottom: 20px;
-    font-size: 18px; }
+    font-size: 18px; 
+}
 
 h3 {
     margin-top: 60px;
     margin-bottom: 30px;
 }
+
+
+
 
 body {
     background-color: rgba(4, 158, 84, 0.407);
@@ -102,4 +145,9 @@ footer {
         max-width: 100%;
         padding: 0 10px;
     }
+}
+
+.bigletter::first-letter {
+    font-size: 150%;
+    font-style: italic;
 }
