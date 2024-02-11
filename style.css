@@ -65,7 +65,7 @@ nav ul li a.active {
     color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     nav ul li {
         margin: 0 10px;
     }
