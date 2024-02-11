@@ -163,7 +163,7 @@ margin: 40px;
 
     .gallery-grid img,  #cookie-bars, #center-peanutbutter, #center-cookie  {
         height: auto;
-        max-width: 100%;
+        max-width: 550%;
     }
 
  p, h1, h2, h3 {
