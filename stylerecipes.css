@@ -162,9 +162,8 @@ margin: 40px;
     }
 
     .gallery-grid img,  #cookie-bars, #center-peanutbutter, #center-cookie  {
-        width: 100%;
         height: auto;
-        max-width: none;
+        max-width: 100%;
     }
 
  p, h1, h2, h3 {
