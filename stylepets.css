@@ -79,34 +79,15 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+   
     .gallery {
         grid-template-columns: 1fr;
-        max-width: 100%;
     }
 
     .gallery img, .mainpic {
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        max-width: none;
     }
 
-    .h2class, p, .dog-list {
-        max-width: 100%;
-        margin: 20px auto;
-        padding: 0 5%;
-    }
-
-    .dog-list li {
-        font-size: 16px;
-        margin-bottom: 15px;
-    }
-
-    h1, h2, h3 {
-        margin: 30px auto;
-        padding: 0 10px;
-    }
-
-    footer {
-        margin: 40px auto;
-        padding: 10px 0;
-    }
 }
