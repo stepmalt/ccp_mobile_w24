@@ -161,16 +161,14 @@ margin: 40px;
         grid-template-columns: 1fr;
     }
 
-    .gallery-grid img {
+    .gallery-grid img,  #cookie-bars, #center-peanutbutter, #center-cookie  {
         width: 100%;
         height: auto;
         max-width: none;
     }
 
-    #cookie-bars, #center-peanutbutter, #center-cookie {
-        width: 100%;
-        height: auto;
-        max-width: none;
-    }
-
+ p, h1, h2, h3 {
+    max-width: 100%;
+    padding: 10px;
+ }
 }
