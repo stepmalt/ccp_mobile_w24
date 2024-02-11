@@ -157,15 +157,17 @@ margin: 40px;
 
 @media only screen and (max-width: 600px) {
 
-.gallery-grid, #center-peanutbutter, #cookie-bars, #center-cookie {
-    max-width: 100%;
+.gallery-grid img, #center-peanutbutter, #cookie-bars, #center-cookie {
+    width: 100%;
+    height: auto;
+    max-width: none;
 }
 
 .gallery-grid {
     grid-template-columns: 1fr;
 }
 
-.gallery-grid img, .ingredients-list, .directions-list {
+.ingredients-list, .directions-list {
     width: 100%;
     height: auto;
 }
@@ -174,3 +176,4 @@ margin: 40px;
     margin: 20px 0;
 }
 }
+
